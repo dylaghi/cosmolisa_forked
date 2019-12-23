@@ -24,6 +24,7 @@ I = i see only GW with SNR > 20
 p(H|D(G+N)I) \propto p(H|I)p(D(G+N)|HI)
 p(D(G+N)|HI) = p(DG+DN|HI) = p(DG|HI)+p(DN|HI) = p(D|GHI)p(G|HI)+p(D|NHI)p(N|HI) = p(D|HI)(p(G|HI)+p(N|HI))
 """
+
 class CosmologicalModel(cpnest.model.Model):
 
     names=[]#'h','om','ol','w0','w1']
