@@ -4,20 +4,20 @@
 {
     "distutils": {
         "depends": [
-            "/Users/wdp/anaconda3/lib/python3.7/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/Users/wdp/anaconda3/lib/python3.7/site-packages/numpy/core/include/numpy/ufuncobject.h",
-            "/Users/wdp/opt/master/include/lal/LALCosmologyCalculator.h"
+            "/Users/danny/anaconda3/lib/python3.7/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/Users/danny/anaconda3/lib/python3.7/site-packages/numpy/core/include/numpy/ufuncobject.h",
+            "/Users/danny/opt/master/include/lal/LALCosmologyCalculator.h"
         ],
         "include_dirs": [
-            "/Users/wdp/anaconda3/lib/python3.7/site-packages/numpy/core/include",
-            "/Users/wdp/opt/master/include"
+            "/Users/danny/anaconda3/lib/python3.7/site-packages/numpy/core/include",
+            "/Users/danny/opt/master/include"
         ],
         "libraries": [
             "m",
             "lal"
         ],
         "library_dirs": [
-            "/Users/wdp/opt/master/lib"
+            "/Users/danny/opt/master/lib"
         ],
         "name": "cosmology",
         "sources": [
